@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: telegram-php-bot
-    env: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
-    buildCommand: ""
-    startCommand: ""
-    autoDeploy: true
